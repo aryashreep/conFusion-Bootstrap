@@ -5,9 +5,8 @@
 }
 
 .row-content {
-       margin:0px auto;
-    padding: 50px 0px 50px 0px auto;
-    border-bottom: 1px ridge;
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
     min-height: 300px;
 }
 
@@ -29,6 +28,7 @@ address {
     margin: 0px auto;
     color: black;
 }
+
 body{
     padding : 50px 0px 0px 0px;
     z-index: 0;
@@ -37,17 +37,22 @@ body{
 .navbar-dark {
     background: #512d85;
 }
+
 .nav-item {
     padding: 0px 0px 0px 20px;
 }
-.carousel {
-    background: #512da8;
 
+
+.carousel {
+    background: #512DA8;
 }
-.carousel-item{
-    height: 300px;;
+
+.carousel-item {
+    height: 300px;
+    background: #512DA8;
 }
-.carousel-item img{
+
+.carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
